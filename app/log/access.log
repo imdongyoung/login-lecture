@@ -1,0 +1,12 @@
+[0mGET /login [36m304[0m 7.185 ms - -[0m
+[0mPOST /login [32m200[0m 18.562 ms - 16[0m
+[0mGET / [36m304[0m 2.060 ms - -[0m
+GET /login 200 710 - 7.263 ms
+GET /login 304 - - 5.688 ms
+GET /login 304 - - 1.799 ms
+GET /login 304 - - 2.284 ms
+GET /login 304 - - 6.534 ms
+POST /login 200 58 - 15.927 ms
+POST /login 200 65 - 14.971 ms
+GET /register 304 - - 6.452 ms
+POST /register 201 93 - 24.012 ms
