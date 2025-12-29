@@ -1,8 +1,8 @@
 "use strict";
 
 const app = require("../app");
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log(`server listening...`)
+  console.log(`server listening...`);
 });
